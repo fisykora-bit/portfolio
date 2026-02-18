@@ -12,6 +12,21 @@
 
 <body>
 
+    <!-- ─── TOP BAR (photo left, contact right) ─── -->
+    <div class="topbar">
+        <div class="topbar-photo">
+            <div class="photo-circle">
+                <span class="photo-placeholder">Foto</span>
+            </div>
+        </div>
+        <div class="topbar-contact">
+            <p class="contact-label">Email</p>
+            <a href="mailto:fisykora@seznam.cz" class="contact-value">fisykora@seznam.cz</a>
+            <p class="contact-label" style="margin-top:10px;">Telefon</p>
+            <a href="tel:+420731024145" class="contact-value">731 024 145</a>
+        </div>
+    </div>
+
     <!-- ─── HERO ─── -->
     <header>
         <div class="hero-badge">2D Animator · Portfolio</div>
@@ -25,33 +40,11 @@
         <div class="hero-divider"></div>
     </header>
 
-    <!-- ─── CONTACT ─── -->
-    <section id="contact" class="contact-section">
-        <p class="section-label">Kontakt</p>
-        <h2 class="section-title">Kontaktní Údaje</h2>
-        <div class="contact-grid">
-            <div class="contact-item">
-                <span class="contact-icon">✉️</span>
-                <div>
-                    <p class="contact-label">Email</p>
-                    <a href="mailto:fisykora@seznam.cz" class="contact-value">fisykora@seznam.cz</a>
-                </div>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📞</span>
-                <div>
-                    <p class="contact-label">Telefon</p>
-                    <a href="tel:+420731024145" class="contact-value">731 024 145</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- ─── NAV ─── -->
     <nav>
         <a href="#featured">Hlavní projekt</a>
         <a href="#gallery">Ukázky projektů</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#contact-anchor">Kontakt</a>
     </nav>
 
     <!-- ─── FEATURED VIDEO ─── -->
@@ -129,7 +122,7 @@
     </section>
 
     <!-- ─── FOOTER ─── -->
-    <footer>
+    <footer id="contact-anchor">
         <strong>Filip Sýkora</strong>
         <span class="footer-dot"></span>
         2D Animátor
