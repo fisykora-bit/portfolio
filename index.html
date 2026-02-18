@@ -1,132 +1,155 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Filip Sýkora – 2D Animator Portfolio</title>
-  <meta name="description" content="Portfolio 2D animátora Filipa Sýkory. Ukázky animací, projektů a kreativní tvorby." />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filip Sýkora – 2D Animator Portfolio</title>
+    <meta name="description"
+        content="Portfolio 2D animátora Filipa Sýkory. Ukázky animací, projektů a kreativní tvorby." />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- ─── HERO ─── -->
-  <header>
-    <div class="hero-badge">2D Animator · Portfolio</div>
-    <h1>Filip <span>Sýkora</span></h1>
-    <p class="hero-role">2D Animátor &amp; Kreativní Tvůrce</p>
-    <p class="hero-bio">
-      Miluji kreativní tvorbu a nebojím se ponořit do nových věcí.
-      Animování se věnuji už spoustu let a každý projekt beru jako
-      příležitost posunout se dál.
-    </p>
-    <div class="hero-divider"></div>
-  </header>
+    <!-- ─── HERO ─── -->
+    <header>
+        <div class="hero-badge">2D Animator · Portfolio</div>
+        <h1>Filip Sýkora</h1>
+        <p class="hero-role">2D Animátor &amp; Kreativní Tvůrce</p>
+        <p class="hero-bio">
+            Miluji kreativní tvorbu a nebojím se ponořit do nových věcí.
+            Animování se věnuji už spoustu let a každý projekt beru jako
+            příležitost posunout se dál.
+        </p>
+        <div class="hero-divider"></div>
+    </header>
 
-  <!-- ─── NAV ─── -->
-  <nav>
-    <a href="#featured">Hlavní projekt</a>
-    <a href="#gallery">Ukázky projektů</a>
-  </nav>
-
-  <!-- ─── FEATURED VIDEO ─── -->
-  <section id="featured">
-    <p class="section-label">Hlavní ukázka</p>
-    <h2 class="section-title">Predator and Prey</h2>
-
-    <div class="featured-video-wrapper">
-      <span class="featured-tag">⭐ Featured</span>
-      <video
-        id="featuredVideo"
-        controls
-        preload="metadata"
-        src="predator and prey.mp4#t=0,19"
-      >
-        Váš prohlížeč nepodporuje přehrávání videa.
-      </video>
-    </div>
-  </section>
-
-  <!-- ─── GALLERY ─── -->
-  <section id="gallery">
-    <p class="section-label">Projekty</p>
-    <h2 class="section-title">Ukázky Tvorby</h2>
-
-    <div class="gallery-grid">
-
-      <div class="project-card">
-        <div class="project-card-header">
-          <h3>Cizinec ve Městě</h3>
-          <p>Animace VSKK · 2. ročník</p>
+    <!-- ─── CONTACT ─── -->
+    <section id="contact" class="contact-section">
+        <p class="section-label">Kontakt</p>
+        <h2 class="section-title">Kontaktní Údaje</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <div>
+                    <p class="contact-label">Email</p>
+                    <a href="mailto:fisykora@seznam.cz" class="contact-value">fisykora@seznam.cz</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                    <p class="contact-label">Telefon</p>
+                    <a href="tel:+420731024145" class="contact-value">731 024 145</a>
+                </div>
+            </div>
         </div>
-        <video controls preload="metadata" src="Animace VSKK 2. ročník Cizinec ve městě- (video-converter.com).mp4">
-          Váš prohlížeč nepodporuje přehrávání videa.
-        </video>
-      </div>
+    </section>
 
-      <div class="project-card">
-        <div class="project-card-header">
-          <h3>Citron Animace</h3>
-          <p>Animace objektu</p>
+    <!-- ─── NAV ─── -->
+    <nav>
+        <a href="#featured">Hlavní projekt</a>
+        <a href="#gallery">Ukázky projektů</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <!-- ─── FEATURED VIDEO ─── -->
+    <section id="featured">
+        <p class="section-label">Hlavní ukázka</p>
+        <h2 class="section-title">Predator and Prey</h2>
+
+        <div class="featured-video-wrapper">
+            <span class="featured-tag">⭐ Featured</span>
+            <video id="featuredVideo" controls preload="metadata" src="predator and prey.mp4#t=0,19">
+                Váš prohlížeč nepodporuje přehrávání videa.
+            </video>
         </div>
-        <video controls preload="metadata" src="citron animace (video-converter.com).mp4">
-          Váš prohlížeč nepodporuje přehrávání videa.
-        </video>
-      </div>
+    </section>
 
-      <div class="project-card">
-        <div class="project-card-header">
-          <h3>Housle</h3>
-          <p>Animace · Krátká ukázka</p>
+    <!-- ─── GALLERY ─── -->
+    <section id="gallery">
+        <p class="section-label">Projekty</p>
+        <h2 class="section-title">Ukázky Tvorby</h2>
+
+        <div class="gallery-grid">
+
+            <div class="project-card">
+                <div class="project-card-header">
+                    <h3>Cizinec ve Městě</h3>
+                    <p>Animace VSKK · 2. ročník</p>
+                </div>
+                <video controls preload="metadata"
+                    src="Animace%20VSKK%202.%20ro%C4%8Dn%C3%ADk%20Cizinec%20ve%20m%C4%9Bst%C4%9B-%20(video-converter.com).mp4">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+            </div>
+
+            <div class="project-card">
+                <div class="project-card-header">
+                    <h3>Citron Animace</h3>
+                    <p>Animace objektu</p>
+                </div>
+                <video controls preload="metadata" src="citron%20animace%20(video-converter.com).mp4">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+            </div>
+
+            <div class="project-card">
+                <div class="project-card-header">
+                    <h3>Housle</h3>
+                    <p>Animace · Krátká ukázka</p>
+                </div>
+                <video controls preload="metadata" src="housle%20(video-converter.com).mp4">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+            </div>
+
+            <div class="project-card">
+                <div class="project-card-header">
+                    <h3>Molo</h3>
+                    <p>Animace prostředí</p>
+                </div>
+                <video controls preload="metadata" src="molo%20(video-converter.com).mp4">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+            </div>
+
+            <div class="project-card">
+                <div class="project-card-header">
+                    <h3>Míč Animace</h3>
+                    <p>Animace pohybu</p>
+                </div>
+                <video controls preload="metadata" src="m%C3%AD%C4%8D%20animace%20(video-converter.com).mp4">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+            </div>
+
         </div>
-        <video controls preload="metadata" src="housle (video-converter.com).mp4">
-          Váš prohlížeč nepodporuje přehrávání videa.
-        </video>
-      </div>
+    </section>
 
-      <div class="project-card">
-        <div class="project-card-header">
-          <h3>Molo</h3>
-          <p>Animace prostředí</p>
-        </div>
-        <video controls preload="metadata" src="molo (video-converter.com).mp4">
-          Váš prohlížeč nepodporuje přehrávání videa.
-        </video>
-      </div>
+    <!-- ─── FOOTER ─── -->
+    <footer>
+        <strong>Filip Sýkora</strong>
+        <span class="footer-dot"></span>
+        2D Animátor
+        <span class="footer-dot"></span>
+        2026
+    </footer>
 
-      <div class="project-card">
-        <div class="project-card-header">
-          <h3>Míč Animace</h3>
-          <p>Animace pohybu</p>
-        </div>
-        <video controls preload="metadata" src="míč animace (video-converter.com).mp4">
-          Váš prohlížeč nepodporuje přehrávání videa.
-        </video>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ─── FOOTER ─── -->
-  <footer>
-    <strong>Filip Sýkora</strong>
-    <span class="footer-dot"></span>
-    2D Animátor
-    <span class="footer-dot"></span>
-    2026
-  </footer>
-
-  <script>
-    // Ensure the featured video stops at 19 seconds
-    const featuredVideo = document.getElementById('featuredVideo');
-    if (featuredVideo) {
-      featuredVideo.addEventListener('timeupdate', function () {
-        if (this.currentTime >= 19) {
-          this.pause();
-          this.currentTime = 0;
+    <script>
+        // Ensure the featured video stops at 19 seconds
+        const featuredVideo = document.getElementById('featuredVideo');
+        if (featuredVideo) {
+            featuredVideo.addEventListener('timeupdate', function () {
+                if (this.currentTime >= 19) {
+                    this.pause();
+                    this.currentTime = 0;
+                }
+            });
         }
-      });
-    }
-  </script>
+    </script>
 
 </body>
+
 </html>
